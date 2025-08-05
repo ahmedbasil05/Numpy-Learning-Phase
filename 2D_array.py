@@ -1,0 +1,11 @@
+import numpy as np
+
+b = np.array([(1,2,3,4), (5,6,7,8)])
+print(b)
+
+print(b.shape)
+
+#Checking or changing the datatype
+
+c = np.array([(1,2,3,4),(5,6,7,8)], dtype=float)
+print(c)
